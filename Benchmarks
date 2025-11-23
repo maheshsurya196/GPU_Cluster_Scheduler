@@ -1,0 +1,25 @@
+==============================================
+Device         : cuda
+Batch Size     : 10000
+Processes/Task : 200
+State Dim      : 256
+GPU Cores      : 32
+Steps          : 20
+==============================================
+
+[step   0] avg = 886.076 ms
+[step   2] avg = 815.082 ms
+[step   4] avg = 800.103 ms
+[step   6] avg = 793.719 ms
+[step   8] avg = 790.138 ms
+[step  10] avg = 787.992 ms
+[step  12] avg = 786.395 ms
+[step  14] avg = 785.200 ms
+[step  16] avg = 784.226 ms
+[step  18] avg = 783.461 ms
+
+========== BENCHMARK RESULTS ==========
+Avg Step Time : 783.125 ms
+Total Runtime : 15662.49 ms
+Throughput    : 12769.36 schedulings/sec
+=======================================
